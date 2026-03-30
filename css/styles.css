@@ -1,0 +1,76 @@
+/**
+ * Styles for Asian Food App
+ */
+
+/* Navigation Styles */
+nav {
+    background-color: #333;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    padding: 10px;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-image: url('./hero.jpg');
+    height: 400px;
+    color: white;
+    text-align: center;
+}
+
+/* Product Cards */
+.product-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+/* Shopping Cart */
+.cart {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+/* User Profile */
+.user-profile {
+    background-color: #fff;
+    padding: 20px;
+}
+
+/* Checkout Form */
+.checkout-form {
+    background-color: #fff;
+    padding: 20px;
+}
+
+/* Admin Panel */
+.admin-panel {
+    background-color: #eaeaea;
+    padding: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+    }
+    .product-card {
+        width: 100%;
+    }
+}
+
+/* General Visual Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
