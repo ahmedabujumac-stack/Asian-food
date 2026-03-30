@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asian Food Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Asian Food Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#cart">Cart</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#admin">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Featured Products</h2>
+            <div class="product-list">
+                <!-- Product cards here -->
+            </div>
+        </section>
+        <section id="products">
+            <h2>All Products</h2>
+            <input type="text" placeholder="Search products...">
+            <div class="filters">
+                <select name="category" id="category">
+                    <option value="">All Categories</option>
+                    <option value="noodles">Noodles</option>
+                    <option value="snacks">Snacks</option>
+                    <option value="drinks">Drinks</option>
+                </select>
+            </div>
+            <div class="product-list">
+                <!-- Product cards here -->
+            </div>
+        </section>
+        <section id="cart">
+            <h2>Your Shopping Cart</h2>
+            <div class="cart-items">
+                <!-- Cart items here -->
+            </div>
+            <button id="checkout">Checkout</button>
+        </section>
+        <section id="profile">
+            <h2>User Profile</h2>
+            <div class="profile-info">
+                <!-- User profile details here -->
+            </div>
+        </section>
+        <section id="admin">
+            <h2>Admin Panel</h2>
+            <div class="admin-controls">
+                <!-- Admin functionalities here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2026 Asian Food Store. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
